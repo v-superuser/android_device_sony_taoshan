@@ -1,0 +1,9 @@
+#!/sbin/busybox sh
+
+export BOOTREC_EVENT_NODE="/dev/input/event11 c 13 75"
+export BOOTREC_EVENT="/dev/input/event11"
+export BOOTREC_LED_RED="/sys/devices/platform/msm_ssbi.0/pm8038-core/pm8xxx-led/leds/led:rgb_red"
+export BOOTREC_LED_GREEN="/sys/devices/platform/msm_ssbi.0/pm8038-core/pm8xxx-led/leds/led:rgb_green"
+export BOOTREC_LED_BLUE="/sys/devices/platform/msm_ssbi.0/pm8038-core/pm8xxx-led/leds/led:rgb_blue"
+export BOOTREC_FOTA_NODE="/dev/block/mmcblk0p27 b 179 11"
+export BOOTREC_FOTA="/dev/block/mmcblk0p27"
